@@ -1,0 +1,147 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Bara Nsaibia | Professional Documents</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{
+--primary:#111827;
+--secondary:#6b7280;
+--border:#e5e7eb;
+--bg:#f8fafc;
+--white:#ffffff;
+}
+*{margin:0;padding:0;box-sizing:border-box;}
+body{
+font-family:'Inter',sans-serif;
+background:var(--bg);
+color:var(--primary);
+line-height:1.6;
+}
+.container{
+max-width:900px;
+margin:auto;
+padding:80px 24px;
+}
+header{
+margin-bottom:60px;
+}
+h1{
+font-size:3rem;
+font-weight:700;
+margin-bottom:12px;
+}
+.subtitle{
+font-size:1.1rem;
+color:var(--secondary);
+max-width:650px;
+}
+.documents{
+display:grid;
+gap:24px;
+}
+.card{
+background:var(--white);
+border:1px solid var(--border);
+border-radius:18px;
+padding:32px;
+transition:.25s ease;
+}
+.card:hover{
+transform:translateY(-3px);
+box-shadow:0 10px 30px rgba(0,0,0,.06);
+}
+.card h2{
+font-size:1.35rem;
+margin-bottom:10px;
+}
+.card p{
+color:var(--secondary);
+margin-bottom:22px;
+}
+.actions{
+display:flex;
+gap:12px;
+flex-wrap:wrap;
+}
+.btn{
+text-decoration:none;
+padding:12px 20px;
+border-radius:10px;
+font-weight:600;
+transition:.2s;
+}
+.btn-primary{
+background:#111827;
+color:white;
+}
+.btn-primary:hover{
+opacity:.9;
+}
+.btn-secondary{
+border:1px solid var(--border);
+color:#111827;
+}
+footer{
+margin-top:60px;
+padding-top:25px;
+border-top:1px solid var(--border);
+color:var(--secondary);
+font-size:.95rem;
+}
+@media(max-width:700px){
+h1{font-size:2.2rem;}
+.container{padding:50px 20px;}
+}
+</style>
+</head>
+<body>
+
+<div class="container">
+
+<header>
+<h1>Bara Nsaibia</h1>
+<p class="subtitle">
+Information Technology student specializing in Multimedia and Web Development.
+This page provides access to my professional CV and my Social & Academic Experience Portfolio.
+</p>
+</header>
+
+<section class="documents">
+
+<div class="card">
+<h2>Curriculum Vitae</h2>
+<p>
+A concise overview of my education, technical skills, internships,
+certifications, and professional experience in web development and multimedia.
+</p>
+<div class="actions">
+<a class="btn btn-primary" href="Bara_Nsaibia_CV.pdf" target="_blank">Open CV</a>
+</div>
+</div>
+
+<div class="card">
+<h2>Social & Academic Experience Portfolio</h2>
+<p>
+A comprehensive portfolio documenting professional engagements,
+leadership experiences, institutional collaborations, certifications,
+community involvement, and academic achievements.
+</p>
+<div class="actions">
+<a class="btn btn-primary" href="social_experience_report_v2.pdf" target="_blank">Open Portfolio</a>
+</div>
+</div>
+
+</section>
+
+<footer>
+Last updated 2026 • Professional Documentation Portfolio
+</footer>
+
+</div>
+
+</body>
+</html>
